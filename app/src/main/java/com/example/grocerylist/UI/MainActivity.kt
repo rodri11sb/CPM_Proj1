@@ -51,11 +51,12 @@ class MainActivity : AppCompatActivity() {
 
 //       on ClickListener on button to open dialog box
         btnAdd.setOnClickListener {
-           GroceryItemDialog(this,object : DialogListener{
+
+           /*GroceryItemDialog(this,object : DialogListener{
                override fun onAddButtonClicked(item: GroceryItems) {
                    ViewModel.insert(item)
                }
-           }).show()
+           }).show()*/
         }
 
 
